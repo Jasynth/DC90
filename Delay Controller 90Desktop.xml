@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="258" y="5" width="292" height="295"
+             fileName="/Users/jasonmorley/Desktop/PIX/file-5.jpg"/>
+  <Component type="ScriptImage" id="Image2" x="156" y="220" fileName="/Users/jasonmorley/Desktop/IN REACH ENT LOGOS/IMG_0498 2.jpg"
+             width="159" height="80"/>
+  <Component type="ScriptImage" id="Image3" x="0" y="56" fileName="/Users/jasonmorley/Desktop/IN REACH ENT LOGOS/IMG_0497.jpg"
+             width="317" height="161"/>
+  <Component type="ScriptImage" id="Image4" x="0" y="220" fileName="/Users/jasonmorley/Desktop/IN REACH ENT LOGOS/IMG_0498 2.jpg"
+             width="159" height="80"/>
+  <Component type="ScriptSlider" id="Knob2" x="236" y="92" filmstripImage="/Users/jasonmorley/Desktop/ImagesTutorial/JP8000.png"
+             numStrips="100" width="82" height="77" processorId="Delay1" parameterId="DelayTimeRight"
+             mode="TempoSync" max="18" stepSize="1" middlePosition="9" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Knob3" x="48" y="223" filmstripImage="/Users/jasonmorley/Desktop/ImagesTutorial/JP8000.png"
+             numStrips="100" width="82" height="77" processorId="Delay1" parameterId="FeedbackLeft"
+             mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Knob4" x="17" y="92" filmstripImage="/Users/jasonmorley/Desktop/ImagesTutorial/JP8000.png"
+             numStrips="100" width="82" height="77" processorId="Delay1" parameterId="DelayTimeLeft"
+             mode="TempoSync" max="18" stepSize="1" middlePosition="9" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Knob5" x="130" y="0" filmstripImage="/Users/jasonmorley/Desktop/ImagesTutorial/JP8000.png"
+             numStrips="100" width="89" height="68" processorId="Delay1" parameterId="Mix"
+             mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Knob6" x="203" y="223" filmstripImage="/Users/jasonmorley/Desktop/ImagesTutorial/JP8000.png"
+             numStrips="100" width="82" height="77" processorId="Delay1" parameterId="DelayTimeRight"
+             mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Below"/>
+  <Component type="ScriptButton" id="Button1" x="0" y="0" text="TEMPO SYNC"
+             width="129" height="57" bgColour="4278190080" itemColour="4279588174"
+             processorId="Delay1" parameterId="TempoSync"/>
+  <Component type="ScriptButton" id="Button2" x="195" y="0" text="PHASER ON/OFF"
+             width="123" height="54" bgColour="4278190080" itemColour="4279588174"
+             processorId="Phase FX1" parameterId="Enabled"/>
+  <Component type="ScriptLabel" id="Label2" x="98" y="62" textColour="4278190080"
+             text="" fontSize="77" fontName="Trattatello" enabled="0"/>
+  <Component type="ScriptLabel" id="Label3" x="1" y="76" textColour="4278190080"
+             text="L3ft D3LAY" fontSize="35" fontName="Trattatello" width="107"
+             height="24" enabled="0"/>
+  <Component type="ScriptLabel" id="Label4" x="213" y="76" textColour="4278190080"
+             text="Right D3LAY" fontSize="35" fontName="Trattatello" width="107"
+             height="24" enabled="0"/>
+  <Component type="ScriptLabel" id="Label5" x="26" y="194" textColour="4278190080"
+             text="L FEEDBACK" fontSize="35" fontName="Trattatello" width="107"
+             height="24" enabled="0"/>
+  <Component type="ScriptLabel" id="Label6" x="191" y="193" textColour="4278190080"
+             text="R FEED BACK" fontSize="35" fontName="Trattatello" width="107"
+             height="24" enabled="0"/>
+  <Component type="ScriptSlider" id="Knob8" x="544" y="0" filmstripImage="/Users/jasonmorley/Desktop/Surge/Resources/pictures/SimpleFlat100 blu.png"
+             numStrips="100" width="66" height="61" processorId="Phase FX1"
+             parameterId="Frequency1" mode="Frequency" suffix=" Hz" middlePosition="1500"
+             showValuePopup="Below" min="20" max="20000" stepSize="1"/>
+  <Component type="ScriptSlider" id="Knob9" x="604" y="0" filmstripImage="/Users/jasonmorley/Desktop/Surge/Resources/pictures/SimpleFlat100 blu.png"
+             numStrips="100" width="66" height="79" processorId="Phase FX1"
+             parameterId="Frequency2" mode="Frequency" suffix=" Hz" middlePosition="1500"
+             showValuePopup="Below" min="20" max="20000" stepSize="1"/>
+  <Component type="ScriptLabel" id="Label7" x="521" y="63" text="Freq 1" fontSize="26"
+             fontName="Trattatello" width="107" height="24" enabled="0"/>
+  <Component type="ScriptLabel" id="Label8" x="595" y="61" text="Freq2" fontSize="26"
+             fontName="Trattatello" width="75" height="28" enabled="0"/>
+  <Component type="ScriptImage" id="Image5" x="542" y="215" fileName="/Users/jasonmorley/Desktop/GUI/glossy-tv-clip-art/Glossy_Tv_clip_art_hight.png"
+             width="128" height="82"/>
+  <Component type="ScriptLabel" id="Label9" x="550" y="248" textColour="4278190080"
+             text="DC 90" fontName="Seravek" width="114" height="49" fontSize="65"
+             enabled="0"/>
+</ContentProperties>
